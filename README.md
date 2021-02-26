@@ -5,6 +5,13 @@ IoT-based Pulse and Blood-Oxygen(SpO2) Monitoring System, which will allow docto
 
 [Project Report | PDF](https://github.com/RAvengineer/SpO2-Pulse-Monitoring-System/blob/main/Documents/Self%20Pulse%20and%20Blood-Oxygen%20Monitoring%20System%20Report.pdf)
 
+## How to use?
+1. Open VS Code
+2. Install Platform IO extension
+3. Open the [./Programs](/Programs) folder as a new `Node-MCU` project
+4. Install the dependencies in [platformio.ini](Programs/platformio.ini) file
+5. Upload the code to Node-MCU
+
 ## Features
 - [x] Read Pulse from the MAX30102 sensor
 - [x] Read Blood-oxygen level (SpO2) from the MAX30102 sensor
